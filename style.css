@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    min-width: 1400px;
+    max-width: 1400px;
+}
+
+.main-container{
+    width: 100%;
+}
+
+    /* CSS NAVBAR & BIG IMAGE CODE START */
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 25px;
+}
+
+.navbar div{
+    display: inline-block;
+}
+
+.logo h2{
+    width: 150px;
+    margin: 0px 0px 0px 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.right{
+    float: right;
+}
+
+.right ul{
+    margin-right: 80px;
+}
+
+.right ul li {
+    width: 100px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    text-align: center;
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(249, 249, 82);
+    border: 2px double;
+    border-style: double black
+    ;
+    transform: 3s;
+    transition: 2s;
+}
+
+.big-image{
+    
+    background-image: url(main-iamge.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+    /* CSS NAVBAR & BIG IMAGE CODE COMPLETE */
+
+      /* CSS SECTION TWO CODE START */
+
+.container{
+    width: 20%;
+    margin: 80px 0px 0px 55px;
+    background-color: hid;
+    display: inline-block;
+}    
+
+
+.icon{
+    border-radius: 50%;
+    height: 85px;
+    width: 90px;
+    background-color:#2996D8;
+    color: white;
+    margin-left: 60px;
+    padding-top: 25px;
+}
+
+.fa-regular.fa-message{
+    font-size: 30px;
+    padding: 3px 3px 0px 30px;
+}
+
+.fa-solid.fa-code{
+    font-size: 30px;
+    padding: 4px 3px 0px 25px;
+}
+
+.fa-solid.fa-swatchbook{
+    font-size: 30px;
+    padding: 3px 3px 0px 30px;
+}
+
+.fa-solid.fa-chart-line{
+    font-size: 30px;
+    padding: 3px 3px 0px 28px;
+}
+
+.container b{
+    padding: 30px 0px 0px 0px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #2996D8;
+}
+
+.para{
+    margin-top: 20px;
+}
+
+
+    /* CSS SECTION TWO CODE COMPLETE */
+
+    /* CSS SECTION THREE CODE START */
+
+
+.section-third{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 620px;
+    margin: 80px 0px 0px 0px;
+    padding-top: 50PX;
+}
+
+.section-third img{
+    float: right;
+  /* margin-left: 350px; */
+  width: 310px;
+  height: 220px;
+  margin-right: 170px;
+}
+
+.section-third h2{
+    margin-left: 10%;
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: #2996D8;;
+}
+
+.section-third p{
+    margin-left: 10%;
+}
+   
+.section-third button{
+    margin-left: 10%;
+    margin-top: 15px;
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.section-third button:hover{
+    background-color: #2996D8;
+    color: whitesmoke;
+    border-radius: 5px;
+    transition: 1.5s;
+}
+
+.photo{
+    background-image: url(WhatsApp\ Image\ .jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 250px;
+    margin: 50px 0px 0px 130px;
+}
+
+
+   /* CSS SECTION THREE CODE COMPLETE */
+
+
+   /* CSS LAST-SECTION  CODE START */
+
+
+.last-section{
+    width: 25%;
+     display: inline-block;
+     margin: 100px 0px 0px 70px;  
+}
+
+.img-text{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 400px;
+}
+
+ .last-section b{
+    margin: 30px;
+    padding: 0px 0px 15px 40px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lcis img{
+    width: 330px;
+    height: 130px;
+    margin-top: 15px;    
+    padding: 0px 0px 0px 22px;
+}
+
+.lcis{
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    top: 0;
+   margin: 118px 27px; 
+}
+
+.btn button{
+    width: 130px;
+    height: 25px;
+    background-color: grey;
+    color: white;
+    border: none;
+}
+
+.content h2{
+    margin: 10px 0px 0px 20px;
+    color: #2996D8;
+    font-family: sans-serif;
+}
+
+.pa{
+    margin: 10px 0px 0px 20px;
+} 
+
+      /* CSS LAST-SECTION  CODE COMPLETE */
+
+
+
+
+
+
+
+
+
+
